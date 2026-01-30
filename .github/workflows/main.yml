@@ -11,8 +11,16 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: My first step
+      - name: Initalize a repo
         run: |
           echo "This is devops Rutu"
           uname -a
     
+      - name: Check The Docker Installation
+        run: |
+          dockker
+          docker images
+
+      - name: My first step
+        run: |
+          docker run hello-world
