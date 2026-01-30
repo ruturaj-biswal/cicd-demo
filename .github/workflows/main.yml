@@ -18,7 +18,7 @@ jobs:
     
       - name: Check The Docker Installation
         run: |
-          dockker
+          docker
           docker images
 
       - name: My first step
